@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <controller>
+	<!-- device ip address -->
+		<host></host>
+	<!-- host ip address -->
+		<password></password>
+	<!-- show data in status area -->
+		<show_txrx_data>false</show_txrx_data>
+	</controller>
+	<!-- relay definitions: port - device relay port, name - device relay name in app -->
+	<relays>
+		<relay port="1" name="Relay #1" />
+		<relay port="2" name="Relay #2" />
+		<relay port="3" name="Relay #3" />
+		<relay port="4" name="Relay #4" />
+		<relay port="5" name="Relay #5" />
+		<relay port="6" name="Relay #6" />
+		<relay port="7" name="Relay #7" />
+		<relay port="8" name="Relay #8" />
+	</relays>
+</configuration>
